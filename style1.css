@@ -1,0 +1,47 @@
+.reset{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    line-height: 50px;
+    width: 520px;
+    height: 420px;
+    box-shadow:0 25px 50px rgba(0,0,0,0.1),0 0 0 1000px rgba(255,255,255,0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    display: none;
+  }
+  body{
+    background: rgb(226, 226, 226);
+  }
+  .reset h1{   
+      margin-top: -20px;
+  }
+  .reset label{
+      margin-left: -50px;
+      margin-top: -30px;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+  } 
+  #close{
+    position: relative;
+    top: -190px;
+    right: -400px;
+    padding: 10px 20px;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10000;
+}
+h6{
+    padding-top: 40px;
+    margin-left: -10px;
+    cursor: pointer;
+  }
+  h6:active{
+      color: red;
+  }
